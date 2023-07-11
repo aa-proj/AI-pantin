@@ -4,7 +4,7 @@ services:
     build: .
     init: true
     restart: always
-    entrypoint:
+    environment:
       - GAS_URL:https://script.google.com/macros/s/AKfycbyT5XyWpHjbAb5gZsw3fMImWtxxQTqFO6-b5w5wYiaQaplt_f443lgVh7YrE7R_Uuoa/exec
       - DISCORD_CHANNEL:1080986839307006044
       - DISCORD_TOKEN:aaa
